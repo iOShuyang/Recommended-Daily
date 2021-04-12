@@ -42,8 +42,45 @@
 <br>
 <br>
 
+## <div align=center>2021/04/12</div>
+* Moya + Alamofire + HandyJson + RxSwift 搭建一个新项目的网络请求[点击前往](https://juejin.cn/post/6946955938104344606)【==三方框架==】
+
+* iOS-帐号系统安全方案[点击前往](https://juejin.cn/post/6948346736809082894)【==安全==】
+
+
+* iOS事件处理，看我就够了~[点击前往](https://juejin.cn/post/6948318786005139493)【==基础知识==】
+
+    `UIResponder是iOS中用于处理用户事件的API，可以处理触摸事件、按压事件(3D touch)、远程控制事件、硬件运动事件。**可以通过touchesBegan、pressesBegan、motionBegan、remoteControlReceivedWithEvent等方法，获取到对应的回调消息。UIResponder不只用来接收事件，还可以处理和传递对应的事件，如果当前响应者不能处理，则转发给其他合适的响应者处理。
+    应用程序通过响应者来接收和处理事件，响应者可以是继承自UIResponder的任何子类，例如UIView、UIViewController、UIApplication等。当事件来到时，系统会将事件传递给合适的响应者，并且将其成为第一响应者。
+    第一响应者未处理的事件，将会在响应者链中进行传递，传递规则由UIResponder的nextResponder决定，可以通过重写该属性来决定传递规则。当一个事件到来时，第一响应者没有接收消息，则顺着响应者链向后传递。
+    `
+
+* iOS 13.x获取通讯录信息时的注意事项[点击前往](https://blog.csdn.net/WangErice/article/details/102494864)【==通讯录==】
+
+ `既然苹果粑粑不让用，在正常情况下就不要试图去申请，也不要视图去获取，因为你粑粑终究是你粑粑，如果非要不听话，那就要准备好背锅.然后删掉
+ contact.note
+ `
+ 
+<br>
+<br>
+<br>
+
 ## <div align=center>2021/03/16</div>
+
+* 组件化开发和模块化开发概念辨析[点击前往](https://blog.csdn.net/qq_36299025/article/details/103258032)【==架构==】
+
+```
+组件：最初的目的是代码重用，功能相对单一或者独立。在整个系统的代码层次上位于最底层，被其他代码所依赖，所以说组件化是纵向分层。
+
+模块：最初的目的是将同一类型的代码整合在一起，所以模块的功能相对复杂，但都同属于一个业务。不同模块之间也会存在依赖关系，但大部分都是业务性的互相跳转，从地位上来说它们都是平级的。
+```
+
 * iOS之武功秘籍㉑: 组件化[点击前往](https://juejin.cn/post/6937307792659185700)【==架构==】
+
+* 蜂鸟商家版 iOS 组件化 / 模块化实践总结[点击前往](https://juejin.cn/post/6844903552792395789)【==架构==】
+
+<br>
+<br>
 
 * iOS 稳定性问题治理：卡死崩溃监控原理及最佳实践[点击前往](https://juejin.cn/post/6937091641656721438)【==性能==】
 
@@ -231,6 +268,11 @@
 * iOS realm数据库使用笔记[点击前往](https://www.jianshu.com/p/ffdea2854675)【==三方框架==】
 
 * iOS 数据持久化方案-Realm的使用[点击前往](http://www.cocoachina.com/articles/26443)【==三方框架==】
+    ```
+    1、Realm介绍
+    2、使用教程与辅助工具
+    3、Realm的具体使用
+    ```
 
 <br>
 <br>
